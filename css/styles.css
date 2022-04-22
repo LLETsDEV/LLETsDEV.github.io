@@ -24,13 +24,16 @@
     position: absolute;
   } 
 
+  #logoContainer{
+    align-items: center;
+    position: relative;
+    width: 100%;
+  }
+
   #imgLogo{
       align-self: center;
       position: relative;
       padding-top: 5px;
-  }
-  #logoContainer{
-    justify-content: center;
   }
 
   #buttonContainer{
@@ -45,7 +48,7 @@
 {
     align-self: center;
     position: relative;
-    background-color: #A42AB8;
+    background-color: #d81af5b2;
     color: white;
     width: 20rem;
     height: 3rem;
@@ -75,7 +78,7 @@
     left: 0;
     bottom: 0;
     top: 0;
-    padding-bottom: 3pxrem;
+    padding-bottom: 3px;
     margin: auto;
     position: relative;
     background-color: #181717;
@@ -86,7 +89,7 @@
   }
   #icons {
     font-size: 30px;
-    color: #A42AB8;
+    color: #d81af5b2;
     padding-right: 1rem;
   }
   #icons:hover {
