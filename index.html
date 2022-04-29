@@ -21,31 +21,28 @@
       src="https://kit.fontawesome.com/43e50f316d.js"
       crossorigin="anonymous"
     ></script>
-    
-    <script src="js/scripts.js"></script> 
-    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="css/styles.css" />
     
 
-    <title>Luis Gonçalves | Webpage</title>
+    <title>Opium | Webpage</title>
   </head>
 
 
-  <body>
-    <div class="container-flex  mainContainer">
+  <body id="particles-js">
+    <div class="container-flex  mainContainer" >
     <!-- logo container start -->
-    <div id="logoContainer" class="container flex">
+    <div id="logoContainer" class="container flex text-center">
         <img
             id="imgLogo"
-            src="/assets/logo.png"
+            src="/assets/img/logo.png"
             alt="my profilepic"
           />
       </div>
       <!-- logo container end -->
       <!-- button container start -->
       <div id="buttonContainer" class="d-grid gap-3">
-        <button id="button" class="btn" type="button">Bar</button>
-        <button id="button" class="btn" type="button">Hookah</button>
+        <button id="button" onclick="window.location.href='/assets/pdf/pdf_ex.pdf'" class="btn" type="button">BAR</button>
+        <button id="button" onclick="window.location.href='/assets/pdf/pdf_ex.pdf'" class="btn" type="button">HOOKAH</button>
       </div>
       <!-- button container end -->
       <!-- social media conteiner start -->
@@ -53,16 +50,17 @@
       <!-- social media conteiner end -->
       <footer class="footer text-center text-white copyright">
           <div id="socialM" class="text-center" >
-        <p id="p1">Let's get in touch!</p>
+        <p id="p1">Get to know us!</p>
          <div id="mediaIcons" class="text-center" >
-          <a href="mailto:zitoluis99@icloud.com" id="icons" class="bi bi-facebook " target="_blank"></a>
-          <a href="https://www.linkedin.com/in/luis-gon%C3%A7alves-a81401232" id="icons" target="_blank" class="bi bi-instagram"></a>
+          <a href="https://www.facebook.com/opium.braganca" id="icons" class="bi bi-facebook " target="_blank"></a>
+          <a href="https://www.instagram.com/opium.braganca/?hl=en" id="icons" target="_blank" class="bi bi-instagram"></a>
         </div>
 </div>
         <div class="container-flex"><small>Copyright &copy; Opium | Webpage 2022</small></div>
     </div>
 
-        <!-- Core theme JS-->
-      <script src="js/scripts.js"  type="text/javascript"></script>
+        <!-- Particles -->
+        <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+        <script type="text/javascript" src="js/scripts.js"></script>
   </body>
 </html>
